@@ -1,0 +1,77 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: نوشته
+  category: دسته
+  tag: برچسب
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: خانه
+  categories: دسته‌بندی
+  tags: برچسب
+  archives: آرشیو
+  about: درباره
+
+# the text displayed in the search bar & search results
+search:
+  hint: جستجو
+  cancel: لغو
+  no_results: اوه .چیزی پیدا نشد..
+
+panel:
+  lastmod: اخیرا به‌روز شده
+  trending_tags: برچسب‌های ممتاز
+  toc: فهرست موضوعات این برگه
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: This post is licensed under :LICENSE_NAME by the author.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Some rights reserved.
+  verbose: >-
+    Except where otherwise noted, the blog posts on this site are licensed
+    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+
+meta: زمتر طراح
+
+not_found:
+  statment: متأسفیم، ما آن URL را اشتباه قرار داده ایم یا به چیزی اشاره می کند که وجود ندارد.
+  hint_template: :HEAD_BAK سعی کنید دوباره آن را پیدا کنید یا آن را در قسمت جستجو کنید :ARCHIVES_PAGE.
+  head_back: به خانه برگرد
+  archives_page: صفحه آرشیو ها
+
+# ----- Posts related labels -----
+
+post:
+  written_by: توسط
+  posted: نگارش
+  updated: به‌روز شده
+  words: کلمه
+  pageview_measure: بازدید
+  read_time:
+    unit: دقیقه
+    prompt: زمان مطالعه
+  relate_posts: بیشتر خواندن
+  share: هم رسانی
+  button:
+    next: جدیدتر
+    previous: قدیمی‌تر
+    copy_code:
+      succeed: کپی شد!
+      title: کپی پیوند
+      succeed: پیوند کپی شد
+  # pinned prompt of posts list on homepage
+  pin_prompt: سنجاق شده
+
+# categories page
+categories:
+  category_measure: دسته‌بندی
+  post_measure: نوشته
